@@ -6,7 +6,7 @@
 
 int main(void){
 	//localidade do teclado
-	setlocale(LC_ALL, "");
+	setlocale(LC_ALL, "PORTUGUESE");
 
 	//variaveis
 	int desi=0;
@@ -71,6 +71,10 @@ int main(void){
 		else if(desi == 4){
 			printf("fim do programa\n");
 			return 0;
+		}
+		else
+		{
+			printf("opção invalida\n");
 		}
 		
 		printf("\n");
