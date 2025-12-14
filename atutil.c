@@ -19,7 +19,7 @@ int main(void){
 
 		system("clear");
 		printf("seja bem vindo ao atutil minha feramenta de auto instalacao para linux(Somente para ubuntu e linux mint, mas vou espandir para outras plataformas)\n");
-		 
+
 		// menu principal
 
 		printf("(1)Produtividade\n(2)jogos\n(3)dev(nao esta pronto ainda)\n(4)sair\n");
@@ -76,15 +76,15 @@ int main(void){
 		{
 			printf("opção invalida\n");
 		}
-		
+
 		printf("\n");
-		printf("\ndeseja instalar mais alguma coisa? (s)sim (n)não: \n"); 
+		printf("\ndeseja instalar mais alguma coisa? (s)sim (n)não: \n");
 		scanf(" %c", &resf);
-		
+
 		// onde o loop termina se o usuario quiser
 	}while(resf == 's' || resf == 'S');
 
 	printf("fim do programa\n");
-	
+
 	return 0;
 }

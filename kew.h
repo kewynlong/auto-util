@@ -1,6 +1,6 @@
-//minha biblioteca para o beta do app de utilidades aprendi c esse ano se tiver bugs to aprendendo a usar essa linguagem infernal 
+//minha biblioteca para o beta do app de utilidades aprendi c esse ano se tiver bugs to aprendendo a usar essa linguagem infernal
 //que eu presiso de 4 linhas para imprimir um "olá mundo" obs:necessito de ajuda.
-//exibir menus 
+//exibir menus
 void menu2(){
 	system("clear");
 	printf("qual é o programa que voce deseja instalar?\n");
@@ -32,9 +32,9 @@ void insta1(){
 	scanf("%d", &a);
 	if(a == 1)
 	{
-		system("wget https://steamcdn-a.akamaihd.net/client/installer/steam.deb && "
-			"sudo dpkg -i steam.deb && "
-			"sudo apt install -f");
+	system("wget https://steamcdn-a.akamaihd.net/client/installer/steam.deb");
+    system("sudo dpkg -i steam.deb");
+    system("sudo apt install -f");
 	}
 	else if(a == 2)
 	{
@@ -70,7 +70,7 @@ void insta3(){
     printf("(1 - Somente para Debian, Ubuntu e derivados) Nativo\n");
     printf("(2 - Universal) Flatpak\n");
     scanf("%d", &a);
-    
+
     if(a == 1)
     {
         system("curl -s https://api.github.com/repos/Heroic-Games-Launcher/HeroicGamesLauncher/releases/latest | grep \"browser_download_url.*deb\" | cut -d : -f 2,3 | tr -d \\\" | wget -qi -");
