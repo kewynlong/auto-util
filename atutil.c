@@ -13,7 +13,7 @@ int main(void){
 	int d[10];
 	char resf = 's';
 
-	do{
+	do{//foi o melhor jeito que achei de fazer esse laço de repetição simples se não cada parte teria um laço proprio e eu não teria saco para essa merda.
 
 		 //começo do promgrama
 
@@ -78,7 +78,7 @@ int main(void){
 		}
 		
 		printf("\n");
-		printf("\ndeseja instalar mais alguma coisa? (s)sim (n)não: \n");
+		printf("\ndeseja instalar mais alguma coisa? (s)sim (n)não: \n"); 
 		scanf(" %c", &resf);
 		
 		// onde o loop termina se o usuario quiser

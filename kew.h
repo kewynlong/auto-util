@@ -1,6 +1,5 @@
-#include <stdio.h>
-#include <stdlib.h>
-
+//minha biblioteca para o beta do app de utilidades aprendi c esse ano se tiver bugs to aprendendo a usar essa linguagem infernal 
+//que eu presiso de 4 linhas para imprimir um "olá mundo" obs:necessito de ajuda.
 //exibir menus 
 void menu2(){
 	system("clear");
