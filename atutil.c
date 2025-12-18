@@ -10,19 +10,19 @@ int main(void){
 
 	//variaveis
 	int desi=0;
-	int d[10];
+	int d[2];
 	char resf = 's';
 
-	do{//foi o melhor jeito que achei de fazer esse laço de repetição simples se não cada parte teria um laço proprio e eu não teria saco para essa merda.
+	do{
 
 		 //começo do promgrama
 
 		system("clear");
 		printf("seja bem vindo ao atutil minha feramenta de auto instalacao para linux(Somente para ubuntu e linux mint, mas vou espandir para outras plataformas)\n");
-
+		 
 		// menu principal
 
-		printf("(1)Produtividade\n(2)jogos\n(3)dev(nao esta pronto ainda)\n(4)sair\n");
+		printf("(1)Produtividade\n(2)jogos\n(3)dev\n(4)sair\n");
 		scanf("%d", &desi);
 		//caso for 1
 		if(desi == 1){
@@ -47,7 +47,7 @@ int main(void){
 		// caso for 2
 		else if(desi == 2){
 			menu2();
-			scanf("%d", &d[0]);
+			scanf(" %d", &d[0]);
 			switch(d[0]){
 				case 1:
 					insta1();
@@ -61,11 +61,26 @@ int main(void){
 				case 4:
 					insta4();
 					break;
+				default:
+					printf("opção invalida\n");
 			}
 		}
 		// caso for 3
 		else if(desi == 3){
-			// Menu dev vazio
+			d[1] = menu3();
+			if(d[1] == 1)
+			{
+				dev_in1();
+			}
+			else if (d[1] == 2)
+			{
+				dev_in2();
+			}
+			else if (d[1]==3)
+			{
+				dev_in3();
+			}
+			
 		}
 		// caso for 4
 		else if(desi == 4){
@@ -76,11 +91,11 @@ int main(void){
 		{
 			printf("opção invalida\n");
 		}
-
+		
 		printf("\n");
 		printf("\ndeseja instalar mais alguma coisa? (s)sim (n)não: \n");
 		scanf(" %c", &resf);
-
+		
 		// onde o loop termina se o usuario quiser
 	}while(resf == 's' || resf == 'S');
 
