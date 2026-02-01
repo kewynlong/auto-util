@@ -19,8 +19,7 @@ int main(void)
         // loop principal
 
         des = 0;
-        system("clear");
-        res = 's';
+        system("clear");  
         principal();
 
         des = menu_principal();
@@ -39,9 +38,13 @@ int main(void)
         {
             my_selection();
         }
-        else if(des == 6)
+        else if(des == 5)
         {
              sobre();
+        }
+        else if(des == 6)
+        {
+            puts("ok saindo...");
         }
         else
         {
@@ -56,7 +59,7 @@ int main(void)
     }while(res == 's' || res == 'S');
 
 
-    printf("fim do progrma\n");
+    printf("\nfim do progrma\n");
 
     return 0;
 

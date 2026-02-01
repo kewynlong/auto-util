@@ -138,7 +138,8 @@ void sobre()
     //se for assim eu vou presisar criar um pasta escondida em com o arquivo .html .css .js para se o usuario auterar ele ter uma copia de segurança 
     //mas por agora eu vou somente usar um cat, ou outro comando para mostrar o sobre.md que é um arquivo provisorio.
     //ou somente rediresionar para o meu saite pessoao ou meu github, mas por agora eu vou usar a o terminal.
-
-    system()
+    
+    printf("\n");
+    system("echo 'ainda não esta pronto, mas se quiser pode in no meu github https://github.com/kewynlong'");
 
 }
