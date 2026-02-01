@@ -1,10 +1,12 @@
 void principal();
 
+void sobre(); 
+
 int menu_principal();
 
 void my_selection();
 
-int install_apps(int a);
+void install_apps(int a);
 
 int menu_dev();
 

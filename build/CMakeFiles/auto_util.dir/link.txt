@@ -1,0 +1,1 @@
+/usr/bin/cc -Wl,--dependency-file=CMakeFiles/auto_util.dir/link.d CMakeFiles/auto_util.dir/src/main.c.o CMakeFiles/auto_util.dir/src/modulos.c.o -o auto_util

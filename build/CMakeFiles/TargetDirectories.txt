@@ -1,0 +1,3 @@
+/home/kewyn/projetos/c/auto-util-main/build/CMakeFiles/auto_util.dir
+/home/kewyn/projetos/c/auto-util-main/build/CMakeFiles/edit_cache.dir
+/home/kewyn/projetos/c/auto-util-main/build/CMakeFiles/rebuild_cache.dir
