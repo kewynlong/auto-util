@@ -1,0 +1,14 @@
+body{
+    background-color: aliceblue;
+}
+.topo{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+footer{
+    height: 12dvh;
+    width: 100dvh;
+    border-radius: 10px;
+    background-color: rgba(39, 105, 247, 0.356);
+}
