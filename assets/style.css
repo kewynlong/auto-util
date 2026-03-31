@@ -1,6 +1,10 @@
 body{
     background-color: aliceblue;
 }
+.content-btn1 {
+    display: grid;
+    place-items: center;
+}
 .topo{
     justify-content: center;
     align-items: center;
