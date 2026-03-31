@@ -6,6 +6,15 @@ body{
     align-items: center;
     text-align: center;
 }
+.obt-btn{
+    background-color: rgb(91, 91, 255);
+    border-radius: 1vh;
+    padding: 1dvh;
+}
+
+.obt-btn:hover{
+    background-color: rgb(60, 60, 253);
+}
 footer{
     height: 12dvh;
     width: 100dvh;
